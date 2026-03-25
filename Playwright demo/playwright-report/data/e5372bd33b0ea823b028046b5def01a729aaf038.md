@@ -1,0 +1,246 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - paragraph [ref=e3]:
+    - link "PMP Practice" [ref=e4] [cursor=pointer]:
+      - /url: https://pmp.expandtesting.com/
+    - text: "| Free PMP Certification Mock Exam Test +900 Questions & Quizzes"
+    - link "Software testing quizzes" [ref=e5] [cursor=pointer]:
+      - img [ref=e7]
+      - text: Software testing quizzes
+  - banner [ref=e10]:
+    - navigation "Main navigation" [ref=e11]:
+      - link "SUT" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - 'img "Best Website for Practice Automation Testing: Free UI and REST API Examples and Apps. Using Cypress, Playwright, Selenium, WebdriverIO and Postman." [ref=e13]'
+        - text: Practice
+      - generic [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - button "Demos" [ref=e17] [cursor=pointer]
+          - listitem [ref=e18]:
+            - link "Tools" [ref=e19] [cursor=pointer]:
+              - /url: /#tools
+          - listitem [ref=e20]:
+            - link "Tips" [ref=e21] [cursor=pointer]:
+              - /url: /tips
+          - listitem [ref=e22]:
+            - link "Test Cases" [ref=e23] [cursor=pointer]:
+              - /url: /test-cases
+          - listitem [ref=e24]:
+            - link "API Testing" [ref=e25] [cursor=pointer]:
+              - /url: /notes/api/api-docs/
+          - listitem [ref=e26]:
+            - link "About" [ref=e27] [cursor=pointer]:
+              - /url: /about
+        - list
+        - link "Free ISTQB Mock Exams" [ref=e28] [cursor=pointer]:
+          - /url: https://istqb.expandtesting.com/
+  - main [ref=e29]:
+    - insertion [ref=e33]:
+      - iframe [ref=e35]:
+        - generic [active] [ref=f3e1]:
+          - generic [ref=f3e6]:
+            - link [ref=f3e7] [cursor=pointer]:
+              - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CGPNekRTCaauML5Py_c8P-pOmmQHpkKamhAGNnrnUlRTa2R4QASCVlJmjAWDL7LQFoAGUgfXqKMgBCakCHJ8GvyC6Lj6oAwHIA8sEqgSHAk_QHTnugDekkbOCFfkunij8-urlvcU3iix7mcCMBpPHZZAJHMK31gDizZfOCi8_mBOgEPIjuMZkLdDcg6xUpkiBdnwZBMAmR4-jgA9t3ax9VjPrU5FzQlHFc4Mh06agmdaHuzJOEs2VstQ6osDT2maLQO6sn4EHWx6LfAHW43uKvXzFz2lXXxJ-uIxPCWptbQbLPxjwqHZzhVEiRYbqTm6fjWOlpzw7Uk2CDCE6cmJ2C6j87kVtmEDpzLmfT7-nSsdXBL4sBbBxO4UIqcJM3WKFxaMM1i4D-57qsDn0QaFn-P9r2b4mJQ3ywheZ9UyLu1xvDPhgVegpeI4FOqC9RW1dL_THsr2owATJmv2nlAWIBf6L59dSoAYugAeUucXKA6gHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHmuGxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WMWB9fLat5MDsQlNposxLGTc3oAKAZgLAcgLAYAMAaIMCyoGCgSW4rECkAEBqg0CUEvIDQHqDRMImp318tq3kwMVE3n_Ax36iSkT8A0CiA4J2BMNiBQC0BUBmBYByhYCCgD4FgGAFwGyFxAYASoKNDk3MDIxMjIyMVAGuhcCOAGqGBcJAAAAAOhhB0ESCjQ5NzAyMTIyMjEYAbIYCRICtlAYLiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMI65j18tq3kwMVE3n_Ax36iSkTEAEYASAAEgKlxfD_BwE&num=1&cid=CAQS-wEABaugfeBL1rTUz_8_l0IhRw970QwUkDAMZ9b_p0QX2AgyCVF6Vcm-MOLdZQvIYjGPP26hK09y7WuJQmAwENVqVlpvWthmcUYruy1hPPaxubioEbDg-hW7bRxYG1OtTb7ym-Fav4qkrlOAuMa6_-7rlQPU16SuEg_W64_Vw7LtASc430fEB5tdgIt_DEgc1AcrylsIjMpNByT5-TiLa1UCJSvDP8qrSmO9JNhDDvqfK4LAXoFuDz-5yVV79aO3TQ_ZP2XA5H9W1E_ni2u29Xp5qjvGA1EHy20eomVVwS0ntXq3q4IwopyKDBt7O4cVBIdo6z_A7UnAw1_dqhgB&sig=AOD64_0iigJAaMzO9OKUNzu31NJEQ99DuQ&client=ca-pub-1056034821646296&rf=1&nb=9&adurl=https://bentham.manuscriptpoint.com/journals/TOBEJ%3Fht-6364%26utm_source%3Dgoogleads%26utm_medium%3Dppc%26campaignid%3D22195848702%26utm_campaign%3DDisplay_TOBEJ%26utm_term%3D%26utm_content%3Dlink%26gad_source%3D5%26gad_campaignid%3D22195848702%26gclid%3DEAIaIQobChMI65j18tq3kwMVE3n_Ax36iSkTEAEYASAAEgKlxfD_BwE
+              - img [ref=f3e8]
+            - generic [ref=f3e10]:
+              - generic [ref=f3e13]:
+                - link "Submit your Research Today" [ref=f3e16] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CGPNekRTCaauML5Py_c8P-pOmmQHpkKamhAGNnrnUlRTa2R4QASCVlJmjAWDL7LQFoAGUgfXqKMgBCakCHJ8GvyC6Lj6oAwHIA8sEqgSHAk_QHTnugDekkbOCFfkunij8-urlvcU3iix7mcCMBpPHZZAJHMK31gDizZfOCi8_mBOgEPIjuMZkLdDcg6xUpkiBdnwZBMAmR4-jgA9t3ax9VjPrU5FzQlHFc4Mh06agmdaHuzJOEs2VstQ6osDT2maLQO6sn4EHWx6LfAHW43uKvXzFz2lXXxJ-uIxPCWptbQbLPxjwqHZzhVEiRYbqTm6fjWOlpzw7Uk2CDCE6cmJ2C6j87kVtmEDpzLmfT7-nSsdXBL4sBbBxO4UIqcJM3WKFxaMM1i4D-57qsDn0QaFn-P9r2b4mJQ3ywheZ9UyLu1xvDPhgVegpeI4FOqC9RW1dL_THsr2owATJmv2nlAWIBf6L59dSoAYugAeUucXKA6gHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHmuGxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WMWB9fLat5MDsQlNposxLGTc3oAKAZgLAcgLAYAMAaIMCyoGCgSW4rECkAEBqg0CUEvIDQHqDRMImp318tq3kwMVE3n_Ax36iSkT8A0CiA4J2BMNiBQC0BUBmBYByhYCCgD4FgGAFwGyFxAYASoKNDk3MDIxMjIyMVAGuhcCOAGqGBcJAAAAAOhhB0ESCjQ5NzAyMTIyMjEYAbIYCRICtlAYLiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMI65j18tq3kwMVE3n_Ax36iSkTEAEYASAAEgKlxfD_BwE&num=1&cid=CAQS-wEABaugfeBL1rTUz_8_l0IhRw970QwUkDAMZ9b_p0QX2AgyCVF6Vcm-MOLdZQvIYjGPP26hK09y7WuJQmAwENVqVlpvWthmcUYruy1hPPaxubioEbDg-hW7bRxYG1OtTb7ym-Fav4qkrlOAuMa6_-7rlQPU16SuEg_W64_Vw7LtASc430fEB5tdgIt_DEgc1AcrylsIjMpNByT5-TiLa1UCJSvDP8qrSmO9JNhDDvqfK4LAXoFuDz-5yVV79aO3TQ_ZP2XA5H9W1E_ni2u29Xp5qjvGA1EHy20eomVVwS0ntXq3q4IwopyKDBt7O4cVBIdo6z_A7UnAw1_dqhgB&sig=AOD64_0iigJAaMzO9OKUNzu31NJEQ99DuQ&client=ca-pub-1056034821646296&rf=1&nb=0&adurl=https://bentham.manuscriptpoint.com/journals/TOBEJ%3Fht-6364%26utm_source%3Dgoogleads%26utm_medium%3Dppc%26campaignid%3D22195848702%26utm_campaign%3DDisplay_TOBEJ%26utm_term%3D%26utm_content%3Dlink%26gad_source%3D5%26gad_campaignid%3D22195848702%26gclid%3DEAIaIQobChMI65j18tq3kwMVE3n_Ax36iSkTEAEYASAAEgKlxfD_BwE
+                - link "Publish in a Leading Biomedical Engineering Open Access Journal – Affordable APCs!" [ref=f3e19] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CGPNekRTCaauML5Py_c8P-pOmmQHpkKamhAGNnrnUlRTa2R4QASCVlJmjAWDL7LQFoAGUgfXqKMgBCakCHJ8GvyC6Lj6oAwHIA8sEqgSHAk_QHTnugDekkbOCFfkunij8-urlvcU3iix7mcCMBpPHZZAJHMK31gDizZfOCi8_mBOgEPIjuMZkLdDcg6xUpkiBdnwZBMAmR4-jgA9t3ax9VjPrU5FzQlHFc4Mh06agmdaHuzJOEs2VstQ6osDT2maLQO6sn4EHWx6LfAHW43uKvXzFz2lXXxJ-uIxPCWptbQbLPxjwqHZzhVEiRYbqTm6fjWOlpzw7Uk2CDCE6cmJ2C6j87kVtmEDpzLmfT7-nSsdXBL4sBbBxO4UIqcJM3WKFxaMM1i4D-57qsDn0QaFn-P9r2b4mJQ3ywheZ9UyLu1xvDPhgVegpeI4FOqC9RW1dL_THsr2owATJmv2nlAWIBf6L59dSoAYugAeUucXKA6gHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHmuGxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WMWB9fLat5MDsQlNposxLGTc3oAKAZgLAcgLAYAMAaIMCyoGCgSW4rECkAEBqg0CUEvIDQHqDRMImp318tq3kwMVE3n_Ax36iSkT8A0CiA4J2BMNiBQC0BUBmBYByhYCCgD4FgGAFwGyFxAYASoKNDk3MDIxMjIyMVAGuhcCOAGqGBcJAAAAAOhhB0ESCjQ5NzAyMTIyMjEYAbIYCRICtlAYLiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMI65j18tq3kwMVE3n_Ax36iSkTEAEYASAAEgKlxfD_BwE&num=1&cid=CAQS-wEABaugfeBL1rTUz_8_l0IhRw970QwUkDAMZ9b_p0QX2AgyCVF6Vcm-MOLdZQvIYjGPP26hK09y7WuJQmAwENVqVlpvWthmcUYruy1hPPaxubioEbDg-hW7bRxYG1OtTb7ym-Fav4qkrlOAuMa6_-7rlQPU16SuEg_W64_Vw7LtASc430fEB5tdgIt_DEgc1AcrylsIjMpNByT5-TiLa1UCJSvDP8qrSmO9JNhDDvqfK4LAXoFuDz-5yVV79aO3TQ_ZP2XA5H9W1E_ni2u29Xp5qjvGA1EHy20eomVVwS0ntXq3q4IwopyKDBt7O4cVBIdo6z_A7UnAw1_dqhgB&sig=AOD64_0iigJAaMzO9OKUNzu31NJEQ99DuQ&client=ca-pub-1056034821646296&rf=1&nb=7&adurl=https://bentham.manuscriptpoint.com/journals/TOBEJ%3Fht-6364%26utm_source%3Dgoogleads%26utm_medium%3Dppc%26campaignid%3D22195848702%26utm_campaign%3DDisplay_TOBEJ%26utm_term%3D%26utm_content%3Dlink%26gad_source%3D5%26gad_campaignid%3D22195848702%26gclid%3DEAIaIQobChMI65j18tq3kwMVE3n_Ax36iSkTEAEYASAAEgKlxfD_BwE
+                  - text: Publish in a Leading Biomedical Engineering Open Access Journal –
+                  - text: Affordable APCs!
+              - generic [ref=f3e22]:
+                - link:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CGPNekRTCaauML5Py_c8P-pOmmQHpkKamhAGNnrnUlRTa2R4QASCVlJmjAWDL7LQFoAGUgfXqKMgBCakCHJ8GvyC6Lj6oAwHIA8sEqgSHAk_QHTnugDekkbOCFfkunij8-urlvcU3iix7mcCMBpPHZZAJHMK31gDizZfOCi8_mBOgEPIjuMZkLdDcg6xUpkiBdnwZBMAmR4-jgA9t3ax9VjPrU5FzQlHFc4Mh06agmdaHuzJOEs2VstQ6osDT2maLQO6sn4EHWx6LfAHW43uKvXzFz2lXXxJ-uIxPCWptbQbLPxjwqHZzhVEiRYbqTm6fjWOlpzw7Uk2CDCE6cmJ2C6j87kVtmEDpzLmfT7-nSsdXBL4sBbBxO4UIqcJM3WKFxaMM1i4D-57qsDn0QaFn-P9r2b4mJQ3ywheZ9UyLu1xvDPhgVegpeI4FOqC9RW1dL_THsr2owATJmv2nlAWIBf6L59dSoAYugAeUucXKA6gHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHmuGxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WMWB9fLat5MDsQlNposxLGTc3oAKAZgLAcgLAYAMAaIMCyoGCgSW4rECkAEBqg0CUEvIDQHqDRMImp318tq3kwMVE3n_Ax36iSkT8A0CiA4J2BMNiBQC0BUBmBYByhYCCgD4FgGAFwGyFxAYASoKNDk3MDIxMjIyMVAGuhcCOAGqGBcJAAAAAOhhB0ESCjQ5NzAyMTIyMjEYAbIYCRICtlAYLiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMI65j18tq3kwMVE3n_Ax36iSkTEAEYASAAEgKlxfD_BwE&num=1&cid=CAQS-wEABaugfeBL1rTUz_8_l0IhRw970QwUkDAMZ9b_p0QX2AgyCVF6Vcm-MOLdZQvIYjGPP26hK09y7WuJQmAwENVqVlpvWthmcUYruy1hPPaxubioEbDg-hW7bRxYG1OtTb7ym-Fav4qkrlOAuMa6_-7rlQPU16SuEg_W64_Vw7LtASc430fEB5tdgIt_DEgc1AcrylsIjMpNByT5-TiLa1UCJSvDP8qrSmO9JNhDDvqfK4LAXoFuDz-5yVV79aO3TQ_ZP2XA5H9W1E_ni2u29Xp5qjvGA1EHy20eomVVwS0ntXq3q4IwopyKDBt7O4cVBIdo6z_A7UnAw1_dqhgB&sig=AOD64_0iigJAaMzO9OKUNzu31NJEQ99DuQ&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://bentham.manuscriptpoint.com/journals/TOBEJ%3Fht-6364%26utm_source%3Dgoogleads%26utm_medium%3Dppc%26campaignid%3D22195848702%26utm_campaign%3DDisplay_TOBEJ%26utm_term%3D%26utm_content%3Dlink%26gad_source%3D5%26gad_campaignid%3D22195848702%26gclid%3DEAIaIQobChMI65j18tq3kwMVE3n_Ax36iSkTEAEYASAAEgKlxfD_BwE
+                - link "Open Biomed Engineering" [ref=f3e24] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CGPNekRTCaauML5Py_c8P-pOmmQHpkKamhAGNnrnUlRTa2R4QASCVlJmjAWDL7LQFoAGUgfXqKMgBCakCHJ8GvyC6Lj6oAwHIA8sEqgSHAk_QHTnugDekkbOCFfkunij8-urlvcU3iix7mcCMBpPHZZAJHMK31gDizZfOCi8_mBOgEPIjuMZkLdDcg6xUpkiBdnwZBMAmR4-jgA9t3ax9VjPrU5FzQlHFc4Mh06agmdaHuzJOEs2VstQ6osDT2maLQO6sn4EHWx6LfAHW43uKvXzFz2lXXxJ-uIxPCWptbQbLPxjwqHZzhVEiRYbqTm6fjWOlpzw7Uk2CDCE6cmJ2C6j87kVtmEDpzLmfT7-nSsdXBL4sBbBxO4UIqcJM3WKFxaMM1i4D-57qsDn0QaFn-P9r2b4mJQ3ywheZ9UyLu1xvDPhgVegpeI4FOqC9RW1dL_THsr2owATJmv2nlAWIBf6L59dSoAYugAeUucXKA6gHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHmuGxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WMWB9fLat5MDsQlNposxLGTc3oAKAZgLAcgLAYAMAaIMCyoGCgSW4rECkAEBqg0CUEvIDQHqDRMImp318tq3kwMVE3n_Ax36iSkT8A0CiA4J2BMNiBQC0BUBmBYByhYCCgD4FgGAFwGyFxAYASoKNDk3MDIxMjIyMVAGuhcCOAGqGBcJAAAAAOhhB0ESCjQ5NzAyMTIyMjEYAbIYCRICtlAYLiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMI65j18tq3kwMVE3n_Ax36iSkTEAEYASAAEgKlxfD_BwE&num=1&cid=CAQS-wEABaugfeBL1rTUz_8_l0IhRw970QwUkDAMZ9b_p0QX2AgyCVF6Vcm-MOLdZQvIYjGPP26hK09y7WuJQmAwENVqVlpvWthmcUYruy1hPPaxubioEbDg-hW7bRxYG1OtTb7ym-Fav4qkrlOAuMa6_-7rlQPU16SuEg_W64_Vw7LtASc430fEB5tdgIt_DEgc1AcrylsIjMpNByT5-TiLa1UCJSvDP8qrSmO9JNhDDvqfK4LAXoFuDz-5yVV79aO3TQ_ZP2XA5H9W1E_ni2u29Xp5qjvGA1EHy20eomVVwS0ntXq3q4IwopyKDBt7O4cVBIdo6z_A7UnAw1_dqhgB&sig=AOD64_0iigJAaMzO9OKUNzu31NJEQ99DuQ&client=ca-pub-1056034821646296&rf=1&nb=1&adurl=https://bentham.manuscriptpoint.com/journals/TOBEJ%3Fht-6364%26utm_source%3Dgoogleads%26utm_medium%3Dppc%26campaignid%3D22195848702%26utm_campaign%3DDisplay_TOBEJ%26utm_term%3D%26utm_content%3Dlink%26gad_source%3D5%26gad_campaignid%3D22195848702%26gclid%3DEAIaIQobChMI65j18tq3kwMVE3n_Ax36iSkTEAEYASAAEgKlxfD_BwE
+                - link "Learn More" [ref=f3e26] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CGPNekRTCaauML5Py_c8P-pOmmQHpkKamhAGNnrnUlRTa2R4QASCVlJmjAWDL7LQFoAGUgfXqKMgBCakCHJ8GvyC6Lj6oAwHIA8sEqgSHAk_QHTnugDekkbOCFfkunij8-urlvcU3iix7mcCMBpPHZZAJHMK31gDizZfOCi8_mBOgEPIjuMZkLdDcg6xUpkiBdnwZBMAmR4-jgA9t3ax9VjPrU5FzQlHFc4Mh06agmdaHuzJOEs2VstQ6osDT2maLQO6sn4EHWx6LfAHW43uKvXzFz2lXXxJ-uIxPCWptbQbLPxjwqHZzhVEiRYbqTm6fjWOlpzw7Uk2CDCE6cmJ2C6j87kVtmEDpzLmfT7-nSsdXBL4sBbBxO4UIqcJM3WKFxaMM1i4D-57qsDn0QaFn-P9r2b4mJQ3ywheZ9UyLu1xvDPhgVegpeI4FOqC9RW1dL_THsr2owATJmv2nlAWIBf6L59dSoAYugAeUucXKA6gHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHmuGxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WMWB9fLat5MDsQlNposxLGTc3oAKAZgLAcgLAYAMAaIMCyoGCgSW4rECkAEBqg0CUEvIDQHqDRMImp318tq3kwMVE3n_Ax36iSkT8A0CiA4J2BMNiBQC0BUBmBYByhYCCgD4FgGAFwGyFxAYASoKNDk3MDIxMjIyMVAGuhcCOAGqGBcJAAAAAOhhB0ESCjQ5NzAyMTIyMjEYAbIYCRICtlAYLiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMI65j18tq3kwMVE3n_Ax36iSkTEAEYASAAEgKlxfD_BwE&num=1&cid=CAQS-wEABaugfeBL1rTUz_8_l0IhRw970QwUkDAMZ9b_p0QX2AgyCVF6Vcm-MOLdZQvIYjGPP26hK09y7WuJQmAwENVqVlpvWthmcUYruy1hPPaxubioEbDg-hW7bRxYG1OtTb7ym-Fav4qkrlOAuMa6_-7rlQPU16SuEg_W64_Vw7LtASc430fEB5tdgIt_DEgc1AcrylsIjMpNByT5-TiLa1UCJSvDP8qrSmO9JNhDDvqfK4LAXoFuDz-5yVV79aO3TQ_ZP2XA5H9W1E_ni2u29Xp5qjvGA1EHy20eomVVwS0ntXq3q4IwopyKDBt7O4cVBIdo6z_A7UnAw1_dqhgB&sig=AOD64_0iigJAaMzO9OKUNzu31NJEQ99DuQ&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://bentham.manuscriptpoint.com/journals/TOBEJ%3Fht-6364%26utm_source%3Dgoogleads%26utm_medium%3Dppc%26campaignid%3D22195848702%26utm_campaign%3DDisplay_TOBEJ%26utm_term%3D%26utm_content%3Dlink%26gad_source%3D5%26gad_campaignid%3D22195848702%26gclid%3DEAIaIQobChMI65j18tq3kwMVE3n_Ax36iSkTEAEYASAAEgKlxfD_BwE
+                - link [ref=f3e27] [cursor=pointer]:
+                  - /url: https://adclick.g.doubleclick.net/aclk?sa=l&ai=CGPNekRTCaauML5Py_c8P-pOmmQHpkKamhAGNnrnUlRTa2R4QASCVlJmjAWDL7LQFoAGUgfXqKMgBCakCHJ8GvyC6Lj6oAwHIA8sEqgSHAk_QHTnugDekkbOCFfkunij8-urlvcU3iix7mcCMBpPHZZAJHMK31gDizZfOCi8_mBOgEPIjuMZkLdDcg6xUpkiBdnwZBMAmR4-jgA9t3ax9VjPrU5FzQlHFc4Mh06agmdaHuzJOEs2VstQ6osDT2maLQO6sn4EHWx6LfAHW43uKvXzFz2lXXxJ-uIxPCWptbQbLPxjwqHZzhVEiRYbqTm6fjWOlpzw7Uk2CDCE6cmJ2C6j87kVtmEDpzLmfT7-nSsdXBL4sBbBxO4UIqcJM3WKFxaMM1i4D-57qsDn0QaFn-P9r2b4mJQ3ywheZ9UyLu1xvDPhgVegpeI4FOqC9RW1dL_THsr2owATJmv2nlAWIBf6L59dSoAYugAeUucXKA6gHp8yxAqgH4tixAqgHpr4bqAfMzrECqAfz0RuoB5bYG6gHqpuxAqgHjs4bqAeT2BuoB_DgG6gH7paxAqgH_p6xAqgHr76xAqgHmuGxAqgH1ckbqAfZtrECqAeaBqgH_56xAqgH35-xAqgH-MKxAqgH-8KxAtgHANIILwiAYRABGJ8DMgiKgoCAgICACDoNgECAwICAgICogAKoA0i9_cE6WMWB9fLat5MDsQlNposxLGTc3oAKAZgLAcgLAYAMAaIMCyoGCgSW4rECkAEBqg0CUEvIDQHqDRMImp318tq3kwMVE3n_Ax36iSkT8A0CiA4J2BMNiBQC0BUBmBYByhYCCgD4FgGAFwGyFxAYASoKNDk3MDIxMjIyMVAGuhcCOAGqGBcJAAAAAOhhB0ESCjQ5NzAyMTIyMjEYAbIYCRICtlAYLiIBANAYAcIZAggB&ae=1&gclid=EAIaIQobChMI65j18tq3kwMVE3n_Ax36iSkTEAEYASAAEgKlxfD_BwE&num=1&cid=CAQS-wEABaugfeBL1rTUz_8_l0IhRw970QwUkDAMZ9b_p0QX2AgyCVF6Vcm-MOLdZQvIYjGPP26hK09y7WuJQmAwENVqVlpvWthmcUYruy1hPPaxubioEbDg-hW7bRxYG1OtTb7ym-Fav4qkrlOAuMa6_-7rlQPU16SuEg_W64_Vw7LtASc430fEB5tdgIt_DEgc1AcrylsIjMpNByT5-TiLa1UCJSvDP8qrSmO9JNhDDvqfK4LAXoFuDz-5yVV79aO3TQ_ZP2XA5H9W1E_ni2u29Xp5qjvGA1EHy20eomVVwS0ntXq3q4IwopyKDBt7O4cVBIdo6z_A7UnAw1_dqhgB&sig=AOD64_0iigJAaMzO9OKUNzu31NJEQ99DuQ&client=ca-pub-1056034821646296&rf=1&nb=8&adurl=https://bentham.manuscriptpoint.com/journals/TOBEJ%3Fht-6364%26utm_source%3Dgoogleads%26utm_medium%3Dppc%26campaignid%3D22195848702%26utm_campaign%3DDisplay_TOBEJ%26utm_term%3D%26utm_content%3Dlink%26gad_source%3D5%26gad_campaignid%3D22195848702%26gclid%3DEAIaIQobChMI65j18tq3kwMVE3n_Ax36iSkTEAEYASAAEgKlxfD_BwE
+                  - generic [ref=f3e28]:
+                    - img [ref=f3e29]
+                    - img [ref=f3e31]
+          - img [ref=f3e39] [cursor=pointer]
+          - button [ref=f3e41] [cursor=pointer]:
+            - img [ref=f3e42]
+          - iframe
+    - paragraph [ref=e37]:
+      - text: Do you enjoy this platform? ❤️
+      - link "Buy us a coffee" [ref=e38] [cursor=pointer]:
+        - /url: https://www.buymeacoffee.com/expandtesting
+    - generic [ref=e41]:
+      - generic [ref=e42]:
+        - navigation "breadcrumb mb-2" [ref=e43]:
+          - list [ref=e44]:
+            - listitem [ref=e45]:
+              - link "Home" [ref=e46] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e47]: / Login Page
+        - heading "Test Login page for Automation Testing Practice" [level=1] [ref=e48]
+        - generic [ref=e50]:
+          - paragraph [ref=e51]: This Test Login page is designed for automation testing practice. Test various positive and negative login scenarios in a testing environment.
+          - paragraph [ref=e52]:
+            - text: You can use this login page for practicing with Selenium or other tools like Playwright, Cypress, etc.
+            - link "REST API testing" [ref=e53] [cursor=pointer]:
+              - img [ref=e55]
+              - text: REST API testing
+          - paragraph [ref=e57]:
+            - text: Register
+            - link "here" [ref=e58] [cursor=pointer]:
+              - /url: /register
+            - text: "or Log in to the secure area with these credentials:"
+          - list [ref=e59]:
+            - listitem [ref=e60]: "Username: practice"
+            - listitem [ref=e61]: "Password: SuperSecretPassword!"
+          - paragraph
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - generic [ref=e68]:
+              - generic [ref=e69]: Username
+              - textbox "Username" [ref=e70]
+            - generic [ref=e71]:
+              - generic [ref=e72]: Password
+              - textbox "Password" [ref=e73]
+          - button "Login" [ref=e74] [cursor=pointer]
+        - generic [ref=e75]:
+          - heading "How to test the login page?" [level=2] [ref=e76]
+          - generic [ref=e77]:
+            - paragraph [ref=e78]:
+              - text: If the credentials are correct, you should see a welcome message; otherwise, you will see an error message.
+              - link "Development Tools" [ref=e79] [cursor=pointer]:
+                - img [ref=e81]
+                - text: Development Tools
+            - generic:
+              - insertion:
+                - generic:
+                  - iframe
+            - paragraph [ref=e83]: The login feature is essential for secure websites and is commonly used. Automating the testing of various login scenarios, including different edge cases, is crucial to ensure reliability and security.
+            - heading "How Does Form-Based Authentication Work?" [level=3] [ref=e84]
+            - paragraph [ref=e85]:
+              - text: "Take a look at this diagram and review the different steps:"
+              - link "Secure password guide" [ref=e86] [cursor=pointer]:
+                - img [ref=e88]
+                - text: Secure password guide
+            - img "How Does Form-Based Authentication Work" [ref=e90]
+            - list [ref=e91]:
+              - listitem [ref=e92]: "Step 1: A client requests access to a protected resource"
+              - listitem [ref=e93]: "Step 2: If the client is unauthenticated, the server redirects the client to a login page"
+              - listitem [ref=e94]: "Step 3: The client submits the login form to the server"
+              - listitem [ref=e95]: "Step 4: If the login succeeds, the server redirects the client to the resource. If the login fails, the client is redirected to an error page"
+      - generic [ref=e97]:
+        - heading "Login Automation Test Cases" [level=2] [ref=e98]
+        - generic:
+          - insertion:
+            - generic:
+              - iframe
+        - paragraph [ref=e99]:
+          - text: Below are the test cases for the login page. These test cases cover both positive and negative scenarios to ensure comprehensive testing of the login functionality.
+          - link "Software testing quizzes" [ref=e100] [cursor=pointer]:
+            - img [ref=e102]
+            - text: Software testing quizzes
+        - paragraph [ref=e104]:
+          - text: To perform these tests, please navigate to this
+          - link "page" [ref=e105] [cursor=pointer]:
+            - /url: /login
+        - heading "Login Automation Test Cases" [level=2] [ref=e106]
+        - 'heading "Test Case 1: Successful Login" [level=3] [ref=e107]'
+        - list [ref=e108]:
+          - listitem [ref=e109]: Launch the browser.
+          - listitem [ref=e110]:
+            - text: Navigate to the
+            - link "login" [ref=e111] [cursor=pointer]:
+              - /url: /login
+            - text: page URL.
+          - listitem [ref=e112]: Verify that the login page is displayed successfully.
+          - listitem [ref=e113]:
+            - text: Enter
+            - strong [ref=e114]: Username
+            - text: ":"
+            - code [ref=e115]: practice
+            - text: .
+          - listitem [ref=e116]:
+            - text: Enter
+            - strong [ref=e117]: Password
+            - text: ":"
+            - code [ref=e118]: SuperSecretPassword!
+            - text: .
+          - listitem [ref=e119]:
+            - text: Click the
+            - strong [ref=e120]: Login
+            - text: button.
+          - listitem [ref=e121]:
+            - text: Verify that the user is redirected to the
+            - code [ref=e122]: /secure
+            - text: page.
+          - listitem [ref=e123]: Confirm the success message "You logged into a secure area!" is visible.
+          - listitem [ref=e124]:
+            - text: Verify that a
+            - strong [ref=e125]: Logout
+            - text: button is displayed.
+        - separator [ref=e126]
+        - 'heading "Test Case 2: Invalid Username" [level=3] [ref=e127]'
+        - list [ref=e128]:
+          - listitem [ref=e129]: Launch the browser.
+          - listitem [ref=e130]: Navigate to the login page URL.
+          - listitem [ref=e131]: Verify that the login page is displayed successfully.
+          - listitem [ref=e132]:
+            - text: Enter an incorrect
+            - strong [ref=e133]: Username
+            - text: (e.g.,
+            - code [ref=e134]: wrongUser
+            - text: ).
+          - listitem [ref=e135]:
+            - text: Enter
+            - strong [ref=e136]: Password
+            - text: ":"
+            - code [ref=e137]: SuperSecretPassword!
+            - text: .
+          - listitem [ref=e138]:
+            - text: Click the
+            - strong [ref=e139]: Login
+            - text: button.
+          - listitem [ref=e140]: Verify that an error message "Invalid username." is displayed.
+          - listitem [ref=e141]: Ensure the user remains on the login page.
+        - separator [ref=e142]
+        - 'heading "Test Case 3: Invalid Password" [level=3] [ref=e143]'
+        - list [ref=e144]:
+          - listitem [ref=e145]: Launch the browser.
+          - listitem [ref=e146]: Navigate to the login page URL.
+          - listitem [ref=e147]: Verify that the login page is displayed successfully.
+          - listitem [ref=e148]:
+            - text: Enter
+            - strong [ref=e149]: Username
+            - text: ":"
+            - code [ref=e150]: practice
+            - text: .
+          - listitem [ref=e151]:
+            - text: Enter an incorrect
+            - strong [ref=e152]: Password
+            - text: (e.g.,
+            - code [ref=e153]: WrongPassword
+            - text: ).
+          - listitem [ref=e154]:
+            - text: Click the
+            - strong [ref=e155]: Login
+            - text: button.
+          - listitem [ref=e156]: Verify that an error message "Invalid password." is displayed.
+          - listitem [ref=e157]: Ensure the user remains on the login page.
+  - generic [ref=e158]:
+    - insertion:
+      - generic:
+        - iframe
+  - contentinfo [ref=e159]:
+    - generic [ref=e164]:
+      - heading "Practice Test Automation WebSite for Web UI and Rest API" [level=4] [ref=e165]
+      - paragraph [ref=e166]:
+        - text: "Version: e64cd80e | Copyright"
+        - link "Expand Testing" [ref=e167] [cursor=pointer]:
+          - /url: https://expandtesting.com/
+        - text: "2026"
+  - img [ref=e169] [cursor=pointer]
+```

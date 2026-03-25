@@ -1,0 +1,245 @@
+{
+  "info": {
+    "name": "User API - Portfolio Collection",
+    "description": "A professional Postman collection demonstrating API testing skills using the ReqRes public API. Covers GET, POST, PUT, DELETE with assertions, environment variables, and chained requests.",
+    "_postman_id": "portfolio-collection-001",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+  },
+  "variable": [
+    { "key": "baseUrl", "value": "https://reqres.in/api", "type": "string" },
+    { "key": "userId", "value": "", "type": "string" },
+    { "key": "token", "value": "", "type": "string" }
+  ],
+  "item": [
+    {
+      "name": "1. Get All Users",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/users?page=1",
+          "host": ["{{baseUrl}}"],
+          "path": ["users"],
+          "query": [{ "key": "page", "value": "1" }]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test('Status code is 200', function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test('Response time is less than 2000ms', function () {",
+              "    pm.expect(pm.response.responseTime).to.be.below(2000);",
+              "});",
+              "",
+              "pm.test('Response has data array', function () {",
+              "    const json = pm.response.json();",
+              "    pm.expect(json).to.have.property('data');",
+              "    pm.expect(json.data).to.be.an('array');",
+              "    pm.expect(json.data.length).to.be.greaterThan(0);",
+              "});",
+              "",
+              "pm.test('Each user has required fields', function () {",
+              "    const json = pm.response.json();",
+              "    json.data.forEach(user => {",
+              "        pm.expect(user).to.have.property('id');",
+              "        pm.expect(user).to.have.property('email');",
+              "        pm.expect(user).to.have.property('first_name');",
+              "        pm.expect(user).to.have.property('last_name');",
+              "    });",
+              "});",
+              "",
+              "// Save first user ID for chained requests",
+              "const json = pm.response.json();",
+              "pm.collectionVariables.set('userId', json.data[0].id);"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "2. Get Single User",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/users/{{userId}}",
+          "host": ["{{baseUrl}}"],
+          "path": ["users", "{{userId}}"]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test('Status code is 200', function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test('User data matches expected schema', function () {",
+              "    const json = pm.response.json();",
+              "    pm.expect(json.data).to.have.property('id');",
+              "    pm.expect(json.data).to.have.property('email');",
+              "    pm.expect(json.data.email).to.include('@');",
+              "});",
+              "",
+              "pm.test('Support object is present', function () {",
+              "    const json = pm.response.json();",
+              "    pm.expect(json).to.have.property('support');",
+              "    pm.expect(json.support).to.have.property('url');",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "3. Create New User",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"QA Engineer\",\n  \"job\": \"Software Tester\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/users",
+          "host": ["{{baseUrl}}"],
+          "path": ["users"]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test('Status code is 201 Created', function () {",
+              "    pm.response.to.have.status(201);",
+              "});",
+              "",
+              "pm.test('Response contains created user data', function () {",
+              "    const json = pm.response.json();",
+              "    pm.expect(json.name).to.equal('QA Engineer');",
+              "    pm.expect(json.job).to.equal('Software Tester');",
+              "    pm.expect(json).to.have.property('id');",
+              "    pm.expect(json).to.have.property('createdAt');",
+              "});",
+              "",
+              "pm.test('createdAt is a valid ISO date', function () {",
+              "    const json = pm.response.json();",
+              "    const date = new Date(json.createdAt);",
+              "    pm.expect(date.toString()).to.not.equal('Invalid Date');",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "4. Update User (PUT)",
+      "request": {
+        "method": "PUT",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"Senior QA Engineer\",\n  \"job\": \"Automation Tester\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/users/{{userId}}",
+          "host": ["{{baseUrl}}"],
+          "path": ["users", "{{userId}}"]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test('Status code is 200', function () {",
+              "    pm.response.to.have.status(200);",
+              "});",
+              "",
+              "pm.test('User job is updated', function () {",
+              "    const json = pm.response.json();",
+              "    pm.expect(json.job).to.equal('Automation Tester');",
+              "    pm.expect(json.name).to.equal('Senior QA Engineer');",
+              "});",
+              "",
+              "pm.test('updatedAt timestamp is present', function () {",
+              "    const json = pm.response.json();",
+              "    pm.expect(json).to.have.property('updatedAt');",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "5. Delete User",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "url": {
+          "raw": "{{baseUrl}}/users/{{userId}}",
+          "host": ["{{baseUrl}}"],
+          "path": ["users", "{{userId}}"]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test('Status code is 204 No Content', function () {",
+              "    pm.response.to.have.status(204);",
+              "});",
+              "",
+              "pm.test('Response body is empty', function () {",
+              "    pm.expect(pm.response.text()).to.equal('');",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "6. Register User - Negative Test (Missing Password)",
+      "request": {
+        "method": "POST",
+        "header": [{ "key": "Content-Type", "value": "application/json" }],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"sydney@fife\"\n}"
+        },
+        "url": {
+          "raw": "{{baseUrl}}/register",
+          "host": ["{{baseUrl}}"],
+          "path": ["register"]
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test('Status code is 400 Bad Request', function () {",
+              "    pm.response.to.have.status(400);",
+              "});",
+              "",
+              "pm.test('Error message is returned', function () {",
+              "    const json = pm.response.json();",
+              "    pm.expect(json).to.have.property('error');",
+              "    pm.expect(json.error).to.equal('Missing password');",
+              "});"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

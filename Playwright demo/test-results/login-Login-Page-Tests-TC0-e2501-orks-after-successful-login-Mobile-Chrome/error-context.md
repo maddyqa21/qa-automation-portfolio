@@ -1,0 +1,77 @@
+# Page snapshot
+
+```yaml
+- generic [active] [ref=e1]:
+  - paragraph [ref=e3]:
+    - link "PMP Practice" [ref=e4] [cursor=pointer]:
+      - /url: https://pmp.expandtesting.com/
+    - text: "| Free PMP Certification Mock Exam Test +900 Questions & Quizzes"
+    - link "Quality assurance consulting" [ref=e5] [cursor=pointer]:
+      - img [ref=e7]
+      - text: Quality assurance consulting
+  - banner [ref=e10]:
+    - navigation "Main navigation" [ref=e11]:
+      - link "SUT" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - 'img "Best Website for Practice Automation Testing: Free UI and REST API Examples and Apps. Using Cypress, Playwright, Selenium, WebdriverIO and Postman." [ref=e13]'
+        - text: Practice
+      - button "Toggle navigation" [ref=e14] [cursor=pointer]:
+        - img [ref=e15]
+  - main [ref=e16]:
+    - insertion [ref=e20]:
+      - generic [ref=e23]:
+        - heading "These are topics related to the article that might interest you" [level=2] [ref=e25]: Discover more
+        - link "Cybersecurity training" [ref=e26] [cursor=pointer]:
+          - generic "Cybersecurity training" [ref=e27]
+          - img [ref=e29]
+        - link "Authentication security guide" [ref=e31] [cursor=pointer]:
+          - generic "Authentication security guide" [ref=e32]
+          - img [ref=e34]
+        - link "Selenium training modules" [ref=e36] [cursor=pointer]:
+          - generic "Selenium training modules" [ref=e37]
+          - img [ref=e39]
+        - link "Coffee subscriptions" [ref=e41] [cursor=pointer]:
+          - generic "Coffee subscriptions" [ref=e42]
+          - img [ref=e44]
+        - link "Automated testing frameworks" [ref=e46] [cursor=pointer]:
+          - generic "Automated testing frameworks" [ref=e47]
+          - img [ref=e49]
+    - alert [ref=e54]:
+      - text: You logged into a secure area!
+      - button "Close" [ref=e55] [cursor=pointer]
+    - paragraph [ref=e57]:
+      - text: Do you enjoy this platform? ❤️
+      - link "Buy us a coffee" [ref=e58] [cursor=pointer]:
+        - /url: https://www.buymeacoffee.com/expandtesting
+    - generic [ref=e59]:
+      - generic:
+        - insertion
+      - generic [ref=e62]:
+        - navigation "breadcrumb mb-2" [ref=e63]:
+          - list [ref=e64]:
+            - listitem [ref=e65]:
+              - link "Home" [ref=e66] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e67]: / Secure Area
+        - heading "Secure Area page for Automation Testing Practice" [level=1] [ref=e68]
+        - heading "Hi, practice!" [level=3] [ref=e69]
+        - heading "Welcome to the Secure Area. When you are done click logout below." [level=4] [ref=e70]
+        - link "Logout" [ref=e71] [cursor=pointer]:
+          - /url: /logout
+      - generic:
+        - insertion
+  - contentinfo [ref=e72]:
+    - generic [ref=e77]:
+      - heading "Practice Test Automation WebSite for Web UI and Rest API" [level=4] [ref=e78]
+      - paragraph [ref=e79]:
+        - text: "Version: e64cd80e | Copyright"
+        - link "Expand Testing" [ref=e80] [cursor=pointer]:
+          - /url: https://expandtesting.com/
+        - text: "2026"
+  - img [ref=e82] [cursor=pointer]
+  - generic [ref=e84]:
+    - generic [ref=e85] [cursor=pointer]:
+      - img [ref=e87]
+      - link "Go to shopping options for Web Browsers" [ref=e89]: Web Browsers
+    - button "Close shopping anchor" [ref=e90]
+```
